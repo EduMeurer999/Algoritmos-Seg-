@@ -1,0 +1,188 @@
+4)------------------------------------------
+	A - 6*(3+2) = 30
+	B - 2+6*(3+2) = 32
+	C - 2+3*6/(2+4) = 5
+	D - 2*(8/(3+1)) = 4
+	E - 3+(16-2)/(2*(9-2)) = 4
+	F - 6/3+8/2 = 6
+	G - (3+8/2)*4+3*2 = 34
+	H - 6*3*3+6-10 = 50
+	I - (10*8+3)*9 = 747
+	J - -12*-4+3*-4 = 36
+
+5)------------------------------------------
+	Algoritmo ex5
+	Inicio
+		ler valor1
+		antecessor = valor1-1
+		escrever antecessor
+	Fim
+
+6)------------------------------------------	
+	Algoritmo ex6
+	Inicio
+		ler metros
+		centimetros = metros*100
+		escrever centimetros
+
+7)------------------------------------------
+	Algoritmo ex7
+	Inicio
+		ler base
+		ler altura
+		area = base*altura
+		escrever area
+	Fim
+8)------------------------------------------
+	Algoritmo ex8
+	Inicio
+		ler idadeAnos
+		ler idadeMeses
+		ler idadeDias
+		idadeD = (idadeAnos*365)+(idadeMeses*30)+idadeDias
+		escrever idadeD
+	Fim
+
+9)------------------------------------------
+	Algoritmo ex9
+	Inicio
+		ler lado
+		area = lado*lado
+		escrever area
+	Fim	
+
+10)------------------------------------------
+	Algoritmo ex10
+	Inicio
+		ler salarioHora
+		ler horaTrab
+		total = salarioHora*horaTrab
+	Fim
+
+11)------------------------------------------
+	Algoritmo ex11
+	Inicio
+		ler eleitores
+		ler vBrancos
+		ler vNulos
+		ler vValidos
+		pValidos = (vValidos/eleitores)*100
+		pBrancos = (vBrancos/eleitores)*100
+		pNulos = (vNulos/eleitores)*100
+		escrever (pValidos, "% ",pBrancos,"% ",pNulos, "% ")
+	Fim
+
+12)------------------------------------------
+	Algortimo ex12
+	Inicio
+		ler salarioA
+		ler percent
+		novoSalario = salarioA+(salarioA*(percent/100))	
+		escrever novoSalario
+	Fim
+
+13)------------------------------------------
+	Algoritmo ex13
+	Inicio
+		ler cFab
+		pImp = 45
+		pDist = 28
+		custoCarro = cFab + (cFab*(pImp/100))+(cFab*(pDist/100))
+		escrever custoCarro
+	Fim
+
+14)------------------------------------------
+	Algoritmo ex14
+	Inicio
+		pVendas = 5
+		ler carroVend
+		ler totalVendas
+		ler salFixo
+		ler pCarVendido
+		salarioFinal = salFixo+(pCarVendido*carroVend)+(totalVendas*(pVendas/100))
+		escrever salarioFinal
+	Fim
+
+15)------------------------------------------
+	Algoritmo ex15
+	Inicio
+		ler tempFvs
+		tempC = ((tempF-32)*5)/9
+		escrever tempC
+	Fim
+	
+	Algoritmo ex15(celcius)
+	Inicio
+		ler tempC
+		tempF =(tempC *(9/5))+32
+		escrever tempF
+	Fim
+
+16)------------------------------------------
+	Algoritmo ex16
+	Inicio
+		pN1 = 2
+		pN2 = 3
+		Pn3 = 5
+		ler n1
+		ler n2
+		ler n3
+		mediaFinal = (n1*pN1+n2*pN2+n3*pN3)/10
+		escrever mediaFinal
+	Fim
+
+17)------------------------------------------
+	Algoritmo ex17
+	Inicio
+		pi = 3.14159265359
+		ler raio
+		area = (pi*(raio**2)
+		escrever area
+	Fim
+
+18)------------------------------------------
+	Algoritmo ex18
+	Inicio
+		pReq = 18
+		ler pLampada
+		ler largura
+		ler comprimento
+		area = largura*comprimento
+		qtdWatts = area*18
+		qtdLampadas = qtdWatts/pLampada
+		escrever qtdLampadas
+	Fim
+19)------------------------------------------
+	Algoritmo ex19
+	Inicio
+		cxAzulejo = 1.5
+		ler comprimento	
+		ler largura
+		ler altura
+		areaParede = (comprimento*altura)*2+(largura*altura)*2
+		qtdCxs = areaParede/cxAzulejo
+		escrever qtdCxs
+	Fim
+20)------------------------------------------
+	Inicio
+		pComb = 4.90
+		ler kmI
+		ler kmF 
+		ler combustivel = float(input("Informe os litros de combustível gastos no dia: "))
+		ler valorTotal = float(input("Informe o valor recebido por passageiros: R$"))
+		kmTotal = kmF -kmI
+		kmL = kmTotal/combustivel
+		valComb = combustivel *pComb
+		lucro = valorTotal-valComb
+		escrever '\nLucro líquido: R$',lucro, "\nKm/L: ", kmL
+	Fim
+21)------------------------------------------
+
+22)------------------------------------------
+
+23)------------------------------------------
+
+24)------------------------------------------
+
+25)------------------------------------------
+
