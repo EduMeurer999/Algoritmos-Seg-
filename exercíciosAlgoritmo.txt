@@ -177,6 +177,15 @@
 		escrever '\nLucro líquido: R$',lucro, "\nKm/L: ", kmL
 	Fim
 21)------------------------------------------
+	Inicio
+		ler compPista = float(input('Escreva o comprimento da pista (em metros): '))
+		ler numeroVoltas = int(input('Escreva o numero de voltas: '))
+		ler numAbas = int(input('Escreva o numero de abastecimento desejado: '))
+		ler consumo = float(input('Escreva o consumo do carro (em Km/L): '))
+		kmR = numeroVoltas*(compPista/1000)
+		minAbas = kmR/consumo
+		escrever ('Mínimo de litros por reabastecimento: ', minAbas, "\n")
+	Fim
 
 22)------------------------------------------
 
