@@ -188,10 +188,87 @@
 	Fim
 
 22)------------------------------------------
-
+	Inicio
+		ler valor
+		Se (valor > 10) então
+			escrever ('É MAIOR QUE 10')
+		Senão
+			escrever('NÃO É MAIOR QUE 10')
+	Fim
 23)------------------------------------------
+	Inicio
+		ler valor;
+		
+		Se (valor >=0) então
+			Escrever('É positivo!');
+		
+		Senão
+			Escrever('\nÉ negativo!');
+    Fim
 
 24)------------------------------------------
+	Inicio	
+		ler nMac
+		Se (nMac <12)
+    		preco = nMac*1.5
+		Senão 
+			Se ((nMac >0) e (nMac >= 12)) então
+    			preco = nMac*1.2
+		Escrever('Valor total:  R$', preco)
+	Fim
+25)------------------------------------------
+	Inicio
+		ler n1
+		ler n2
+		media = (n1+n2)/2
+		escrever('\nMédia aritmética: ', media)
+		se media >= 6 então
+			escrever('Aluno aprovado!')
+		senão
+			escrever('Aluno reprovado!')
+	Fim
+26)------------------------------------------
+	Inicio
+		ler anoAtual
+		ler anoNasc
+		ler idadeAnos = anoAtual - anoNasc
+		
+		Se idadeAnos >=18
+			escrever('Você pode votar!')
+		Senão 
+			Se ((idadeAnos<18) e (idadeAnos> 0))
+				escrever('Você não pode votar!')
+			Senão
+				escrever('Idade inválida')
+	Fim
+27)------------------------------------------
+	Inicio
+		ler v1;
+		ler v2;
+		Se v1> v2 então
+    		escrever('Valor 1 é maior: ',v1);
+		
+		Senão
+    		escrever('Valor 2 é maior: ',v2);
+	Fim
+28)------------------------------------------
+
+29)------------------------------------------
+
+30)------------------------------------------
+
+31)------------------------------------------
+	Erro:
+	{
+		A váriável 'altura' não foi definida, nas linha 5 e 7, 
+		portanto é impossivel fazer as operações.
+		Possível correção: "adicionar comando de leitura, Ex:('ler altura').
+	}
+32)------------------------------------------
+
 
 25)------------------------------------------
+
+25)------------------------------------------
+
 
