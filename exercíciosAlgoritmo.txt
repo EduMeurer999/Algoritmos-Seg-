@@ -265,6 +265,25 @@
 		Possível correção: "adicionar comando de leitura, Ex:('ler altura').
 	}
 32)------------------------------------------
+	Exercício 32:
+	Algoritmo exercicio32:
+	Inicio
+		comissao = 3
+		comissao2 = 5
+		ler salFixo
+		ler valVendas
+		se valVendas <= 1500 então
+			subTotal = 1500 + (1500*(comissao/100))
+			restTotal = valVendas-1500
+			total = subTotal+(restTotal+(restTotal*(comissao2/100))
+		escrever total
+	Fim
+
+			
+			
+
+		
+
 
 
 25)------------------------------------------
