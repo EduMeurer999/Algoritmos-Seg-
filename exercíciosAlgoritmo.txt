@@ -286,7 +286,27 @@
 
 
 
-25)------------------------------------------
+36)------------------------------------------
+Algoritmo ex36
+Inicio
+	ler A
+	ler B
+	ler C
+	se v1 > v2:
+		se v1 > v3 então
+			print(A)
+		senão:
+			se v3 > v2 então
+				escrever(C)
+			senão:
+				se v2 > v3 então
+					escrever(B)
+	senão:
+		se v2 > v3 então
+			escrever(B)
+		senão :
+			escrever(C)
+
 
 25)------------------------------------------
 
