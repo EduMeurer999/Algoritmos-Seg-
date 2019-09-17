@@ -1,0 +1,69 @@
+{
+    "Turmas": {
+        "161": {
+            "Alunos": [
+                {
+                    "fulano de tal": {
+                        "parecer": "A"
+                    },
+                    "ciclano de tal": {
+                        "parecer": "B"
+                    },
+                    "terciano de fulano": {
+                        "parecer": [
+                            "A",
+                            "B",
+                            "C",
+                            "D",
+                            "E",
+                            "A",
+                            "B"
+                        ]
+                    }
+                }
+            ],
+            "Regente": "",
+            "Turno": "",
+            "Série": "",
+            "Pareceres": [
+                "Geografia": {
+                    "A": "",
+                    "B": "",
+                    "C": "",
+                    "D": "",
+                    "E": ""
+                },
+                "Artes": {
+                    "A": "",
+                    "B": "",
+                    "C": "",
+                    "D": "",
+                    "E": ""
+                },
+                "Ciências": {
+                    "A": "",
+                    "B": "",
+                    "C": "",
+                    "D": "",
+                    "E": ""
+                },
+                "Inglês": {
+                    "A": "",
+                    "B": "",
+                    "C": "",
+                    "D": "",
+                    "E": ""
+                },
+                {
+                    "Português": [
+                        "A": "",
+                        "B": "",
+                        "C": "",
+                        "D": "",
+                        "E": ""
+                    }
+                ]
+            },
+            "162": {}
+        }
+    }
